@@ -83,12 +83,49 @@ $(document).ready(function () {
     var target = $(this).attr("data-href");
     menu = target;
     $target = $(target);
-    $("html, body").stop().animate(
-      {
-        scrollTop: $target.offset().top - 30,
-      },
-      500,
-      "swing"
-    );
+    $("html, body")
+      .stop()
+      .animate(
+        {
+          scrollTop: $target.offset().top - 30,
+        },
+        500,
+        "swing"
+      );
   });
+  /************************************ Partener Slider ************************************/
+  var partenerSwiper = new Swiper(".partener-slider .swiper", {
+    loop: true,
+    a11y: {
+      enabled: false,
+    },
+    // autoplay: {
+    //   delay: 10000,
+    // },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+        spaceBetween: 15,
+      },
+      992: {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+      1199: {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+    },
+    pagination: {
+      el: ".partener-slider .swiper-pagination",
+      clickable: true,
+    },
+    on: {
+      init: function (swiper) {
+        lazyLoad();
+      },
+    },
+  });
+  /************************************ Fancybox ************************************/
+  Fancybox.bind("[data-fancybox]");
 });
