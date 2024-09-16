@@ -484,11 +484,24 @@ html[dir=rtl] .form-control {
   font-size: 72px;
   text-transform: uppercase;
   margin: 0;
+  white-space: nowrap;
 }
 .main-section .main-title span {
   font-size: 48px;
   font-weight: 400;
   display: block;
+  overflow: hidden;
+  margin: auto;
+  animation: typing 3.5s steps(30, end);
+}
+.main-section .main-title strong {
+  display: block;
+  font-weight: 700;
+  animation: typing 4s steps(30, end) forwards;
+  animation-delay: 1.5s;
+  width: 0;
+  overflow: hidden;
+  margin: auto;
 }
 @media (max-width: 767px) {
   .main-section .main-title {
@@ -498,6 +511,9 @@ html[dir=rtl] .form-control {
   .main-section .main-title span {
     font-size: 36px;
   }
+}
+html[dir=rtl] .main-section .main-title {
+  line-height: 1.4;
 }
 
 .scroll-btn {
@@ -547,6 +563,14 @@ html[dir=rtl] .form-control {
   }
   100% {
     transform: translateY(10px);
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
   }
 }
 .about-content {
