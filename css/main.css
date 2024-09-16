@@ -1,3 +1,7 @@
+:root {
+  --sal-duration: 1s;
+}
+
 @font-face {
   font-family: "graphik";
   src: url("../fonts/graphik/GraphikArabic-Thin.woff2") format("woff2"), url("../fonts/graphik/GraphikArabic-Thin.woff") format("woff"), url("../fonts/graphik/GraphikArabic-Thin.ttf") format("truetype");
@@ -497,7 +501,7 @@ html[dir=rtl] .form-control {
 .main-section .main-title strong {
   display: block;
   font-weight: 700;
-  animation: typing 4s steps(30, end) forwards;
+  animation: typing 3s steps(30, end) forwards;
   animation-delay: 1.5s;
   width: 0;
   overflow: hidden;
@@ -605,7 +609,6 @@ html[dir=rtl] .main-section .main-title {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 82px;
   gap: 60px;
 }
 @media (max-width: 991px) {

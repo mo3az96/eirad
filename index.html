@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/fontawesome.min.css" />
     <link rel="stylesheet" href="css/fancybox.css" />
+    <link rel="stylesheet" href="css/sal.min.css" />
     <link rel="stylesheet" href="css/main.css" />
   </head>
 
@@ -100,7 +101,7 @@
     <!-- Start About -->
     <section class="about-section" id="second-section">
       <div class="container">
-        <div class="about-content">
+        <div class="about-content" data-sal="slide-down">
           <p>
             EIRAD Group was founded by
             <b>HRH Prince Fahd bin Salman bin Abdulaziz Al-Saud</b> in June
@@ -120,51 +121,61 @@
       </div>
       <div class="container">
         <div class="group-content">
-          <h2 class="group-title">
+          <h2 class="group-title" data-sal="flip-down">
             <span>Over the years,</span>
             the company has grown with a portfolio of wholly-owned companies,
             subsidiaries, leading business partnership, international and local
             investments ventures, and authorized service partners
           </h2>
           <div class="group-logos">
-            <a href="groupCompany.html" class="group-logo-item">
-              <div class="group-logo loading-img lazy-img-parent">
-                <img
-                  data-src="images/groupHome/1.png"
-                  class="lazy-img img-contain"
-                />
+            <a
+              href="groupCompany.html"
+              class="group-logo-item"
+              data-sal="zoom-in"
+              style="--sal-delay: 0.2s"
+            >
+              <div class="group-logo">
+                <img src="images/groupHome/1.png" class="img-contain" />
               </div>
             </a>
-            <a href="groupCompany.html" class="group-logo-item">
-              <div class="group-logo loading-img lazy-img-parent">
-                <img
-                  data-src="images/groupHome/2.png"
-                  class="lazy-img img-contain"
-                />
+            <a
+              href="groupCompany.html"
+              class="group-logo-item"
+              data-sal="zoom-in"
+              style="--sal-delay: 0.3s"
+            >
+              <div class="group-logo">
+                <img src="images/groupHome/2.png" class="img-contain" />
               </div>
             </a>
-            <a href="groupCompany.html" class="group-logo-item">
-              <div class="group-logo loading-img lazy-img-parent">
-                <img
-                  data-src="images/groupHome/3.png"
-                  class="lazy-img img-contain"
-                />
+            <a
+              href="groupCompany.html"
+              class="group-logo-item"
+              data-sal="zoom-in"
+              style="--sal-delay: 0.4s"
+            >
+              <div class="group-logo">
+                <img src="images/groupHome/3.png" class="img-contain" />
               </div>
             </a>
-            <a href="groupCompany.html" class="group-logo-item">
-              <div class="group-logo loading-img lazy-img-parent">
-                <img
-                  data-src="images/groupHome/4.png"
-                  class="lazy-img img-contain"
-                />
+            <a
+              href="groupCompany.html"
+              class="group-logo-item"
+              data-sal="zoom-in"
+              style="--sal-delay: 0.5s"
+            >
+              <div class="group-logo">
+                <img src="images/groupHome/4.png" class="img-contain" />
               </div>
             </a>
-            <a href="groupCompany.html" class="group-logo-item">
-              <div class="group-logo loading-img lazy-img-parent">
-                <img
-                  data-src="images/groupHome/5.png"
-                  class="lazy-img img-contain"
-                />
+            <a
+              href="groupCompany.html"
+              class="group-logo-item"
+              data-sal="zoom-in"
+              style="--sal-delay: 0.6s"
+            >
+              <div class="group-logo">
+                <img src="images/groupHome/5.png" class="img-contain" />
               </div>
             </a>
           </div>
@@ -178,14 +189,20 @@
       <div class="container">
         <div class="news-content">
           <div class="section-head">
-            <h3 class="section-title">Latest News</h3>
-            <a href="news.html" class="section-more"> Discover more </a>
+            <h3 class="section-title" data-sal="slide-down">Latest News</h3>
+            <a href="news.html" class="section-more" data-sal="slide-up">
+              Discover more
+            </a>
           </div>
           <div class="news-slider">
             <div class="swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <div class="blog-item">
+                  <div
+                    class="blog-item"
+                    data-sal="slide-up"
+                    style="--sal-delay: 0.2s"
+                  >
                     <a
                       href="newsPost.html"
                       class="blog-img loading-img lazy-img-parent"
@@ -212,7 +229,11 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <div class="blog-item">
+                  <div
+                    class="blog-item"
+                    data-sal="slide-up"
+                    style="--sal-delay: 0.4s"
+                  >
                     <a
                       href="newsPost.html"
                       class="blog-img loading-img lazy-img-parent"
@@ -251,23 +272,26 @@
     <footer class="footer-section">
       <div class="container">
         <div class="footer">
-          <div class="footer-logo loading-img lazy-img-parent">
+          <div
+            class="footer-logo loading-img lazy-img-parent"
+            data-sal="zoom-in"
+          >
             <img data-src="images/logo.png" class="lazy-img img-contain" />
           </div>
           <ul class="footer-list list-unstyled">
-            <li>
+            <li data-sal="slide-down">
               <a href="about.html">About us</a>
             </li>
-            <li>
+            <li data-sal="slide-down" style="--sal-delay: 0.1s">
               <a href="group.html">Group</a>
             </li>
-            <li>
+            <li data-sal="slide-down" style="--sal-delay: 0.2s">
               <a href="news.html">News</a>
             </li>
-            <li>
+            <li data-sal="slide-down" style="--sal-delay: 0.3s">
               <a href="careers.html">Careers</a>
             </li>
-            <li>
+            <li data-sal="slide-down" style="--sal-delay: 0.4s">
               <a href="contact.html">Contact</a>
             </li>
           </ul>
@@ -301,8 +325,9 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-     <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/fancybox.umd.js"></script>
+    <script src="js/sal.min.js"></script>
     <script src="js/lazyload.js"></script>
     <script src="js/svg.js"></script>
     <script src="js/main.js"></script>

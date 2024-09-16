@@ -2,6 +2,11 @@ $(window).on("load", function () {
   $("body").removeClass("overflow");
 });
 $(document).ready(function () {
+  if ($(window).width() >= 992) {
+    sal({
+      once: true,
+    });
+  }
   lazyLoad();
   /************************************ Fixed Header ************************************/
   $(this).scrollTop() >= 150
