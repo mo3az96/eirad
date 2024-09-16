@@ -6,6 +6,11 @@ $(document).ready(function () {
     sal({
       once: true,
     });
+  } else {
+    sal({
+      once: true,
+      disabled: true,
+    });
   }
   lazyLoad();
   /************************************ Fixed Header ************************************/
