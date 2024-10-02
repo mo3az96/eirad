@@ -1684,7 +1684,7 @@ html[dir=rtl] .main-section .main-title {
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 0px 20px 0px rgba(0, 1, 1, 0.1);
   display: flex;
-  align-items: center;
+  align-items: start;
   gap: 40px;
   padding: 20px;
 }
@@ -1696,6 +1696,7 @@ html[dir=rtl] .main-section .main-title {
 }
 @media (max-width: 767px) {
   .group-item {
+    align-items: center;
     flex-direction: column;
   }
 }
