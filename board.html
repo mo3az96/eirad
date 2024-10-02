@@ -95,7 +95,12 @@
     <div class="page-content board-page">
       <div class="container">
         <div class="board-content">
-          <div class="board-main">
+          <button
+            type="button"
+            class="board-main"
+            data-bs-toggle="modal"
+            data-bs-target="#member1Info"
+          >
             <div class="member-img">
               <div class="img-holder loading-img lazy-img-parent">
                 <img data-src="images/board/1.jpg" class="lazy-img img-cover" />
@@ -107,9 +112,14 @@
               </h4>
               <p class="member-position">The Chairman</p>
             </div>
-          </div>
+          </button>
           <div class="board-members">
-            <div class="board-member">
+            <button
+              type="button"
+              class="board-member"
+              data-bs-toggle="modal"
+              data-bs-target="#member2Info"
+            >
               <div class="member-img">
                 <div class="img-holder loading-img lazy-img-parent">
                   <img
@@ -125,8 +135,13 @@
                   Directors of Keir International
                 </p>
               </div>
-            </div>
-            <div class="board-member">
+            </button>
+            <button
+              type="button"
+              class="board-member"
+              data-bs-toggle="modal"
+              data-bs-target="#member2Info"
+            >
               <div class="member-img">
                 <div class="img-holder loading-img lazy-img-parent">
                   <img
@@ -141,8 +156,13 @@
                   Executive Vice President – International Business
                 </p>
               </div>
-            </div>
-            <div class="board-member">
+            </button>
+            <button
+              type="button"
+              class="board-member"
+              data-bs-toggle="modal"
+              data-bs-target="#member2Info"
+            >
               <div class="member-img">
                 <div class="img-holder loading-img lazy-img-parent">
                   <img
@@ -158,8 +178,13 @@
                   Capital
                 </p>
               </div>
-            </div>
-            <div class="board-member">
+            </button>
+            <button
+              type="button"
+              class="board-member"
+              data-bs-toggle="modal"
+              data-bs-target="#member2Info"
+            >
               <div class="member-img">
                 <div class="img-holder loading-img lazy-img-parent">
                   <img
@@ -172,8 +197,13 @@
                 <h4 class="member-name">Siddiq Elsheikh</h4>
                 <p class="member-position">Financial Consultant</p>
               </div>
-            </div>
-            <div class="board-member">
+            </button>
+            <button
+              type="button"
+              class="board-member"
+              data-bs-toggle="modal"
+              data-bs-target="#member2Info"
+            >
               <div class="member-img">
                 <div class="img-holder loading-img lazy-img-parent">
                   <img
@@ -186,7 +216,7 @@
                 <h4 class="member-name">Ali Akram Al-Sayed</h4>
                 <p class="member-position">Country Manager</p>
               </div>
-            </div>
+            </button>
           </div>
         </div>
       </div>
@@ -244,10 +274,87 @@
       </div>
     </footer>
     <!-- End Footer -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="member1Info" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          >
+            <i class="fal fa-times"></i>
+          </button>
+
+          <div class="member-content">
+            <div class="member-img">
+              <div class="img-holder loading-img lazy-img-parent">
+                <img data-src="images/board/1.jpg" class="lazy-img img-cover" />
+              </div>
+            </div>
+            <div class="member-info">
+              <h4 class="member-name">Sultan Bin Fahad Bin Salman Bin Abdulaziz Al-Saud</h4>
+              <ul class="member-list">
+                <li>
+                  HRH Sultan Bin Fahad Bin Salman Bin Abdulaziz Al-Saud
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="member2Info" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          >
+            <i class="fal fa-times"></i>
+          </button>
+
+          <div class="member-content">
+            <div class="member-img">
+              <div class="img-holder loading-img lazy-img-parent">
+                <img data-src="images/board/4.jpg" class="lazy-img img-cover" />
+              </div>
+            </div>
+            <div class="member-info">
+              <h4 class="member-name">Saud Al-Hezayen, EMBA</h4>
+              <ul class="member-list">
+                <li>
+                  Bachelor's degree from King Fahd University of Petroleum and
+                  Minerals.
+                </li>
+                <li>
+                  Master's degree in Business Administration from City
+                  University of London (CASS Business School)
+                </li>
+                <li>
+                  Following his undergraduate studies, Mr. Saud started his
+                  career path with ITC where he worked in sales management then
+                  moved to SAICO where he gained experience in marketing.
+                </li>
+                <li>
+                  Mr. Saud joined the company in 2010, where he worked in many
+                  management positions before joining the top management of the
+                  company and a member of the Board of Directors
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-     <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/fancybox.umd.js"></script>
     <script src="js/intlTelInput.min.js"></script>
     <script src="js/sal.min.js"></script>
