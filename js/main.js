@@ -150,4 +150,15 @@ $(document).ready(function () {
       preferredCountries: ["sa", "kw", "ae", "bh", "om", "qa"],
     });
   }
+
+  /************************************ file ************************************/
+  $(".file-content input[type=file]").on("change", function () {
+    let $sibling = $(this).next();
+    let fileName = this.files.length
+      ? this.files[0].name
+      : $(this).attr("placeholder");
+    $sibling
+      .html(fileName)
+      .toggleClass("placeholder-value", !this.files.length);
+  });
 });

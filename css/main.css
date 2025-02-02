@@ -304,7 +304,7 @@ input::-webkit-inner-spin-button, input::-webkit-calendar-picker-indicator {
   height: 55px;
   width: 100%;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   color: #000000;
   padding: 0 25px;
   border-radius: 0;
@@ -350,7 +350,7 @@ html[dir=rtl] .form-control {
   background-color: #1c5b41;
   color: #fff;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
   padding: 0 20px;
   width: -moz-fit-content;
   width: fit-content;
@@ -737,7 +737,7 @@ html[dir=rtl] .main-section .main-title {
   color: #1c5b41;
   text-transform: capitalize;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 700;
   height: 28px;
   width: -moz-fit-content;
   width: fit-content;
@@ -752,7 +752,7 @@ html[dir=rtl] .main-section .main-title {
 .blog-item .blog-title {
   font-size: 24px;
   color: #000000;
-  font-weight: 600;
+  font-weight: 700;
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
@@ -942,7 +942,7 @@ html[dir=rtl] .main-section .main-title {
   }
 }
 .header-list a {
-  font-weight: 500;
+  font-weight: 700;
   color: #fff;
   transition: all 0.3s ease-in-out;
 }
@@ -1090,7 +1090,7 @@ html[dir=rtl] .main-section .main-title {
   }
   .header-list a {
     color: #1c5b41;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 18px;
   }
   .header-list .has-children > a {
@@ -1328,7 +1328,7 @@ html[dir=rtl] .main-section .main-title {
 }
 .group-section .group-title {
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 700;
   color: #fff;
   text-align: center;
   line-height: 1.467;
@@ -1419,7 +1419,7 @@ html[dir=rtl] .main-section .main-title {
 }
 .feature-item .feature-title {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 700;
   margin: 0 0 25px;
 }
 .feature-item .feature-desc {
@@ -1609,7 +1609,7 @@ html[dir=rtl] .main-section .main-title {
 }
 .board-member .member-name {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
   color: #1c5b41;
   line-height: 1.667;
   margin: 0 0 10px;
@@ -1762,7 +1762,7 @@ html[dir=rtl] .main-section .main-title {
 }
 .group-item .group-link {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   color: #999999;
   text-decoration: underline;
   transition: all 0.3s ease-in-out;
@@ -1792,7 +1792,7 @@ html[dir=rtl] .main-section .main-title {
   background-color: #1c5b41;
   color: #fff;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
   transition: all 0.3s ease-in-out;
 }
@@ -1938,7 +1938,7 @@ html[dir=rtl] .main-section .main-title {
 }
 .contact-method .method-value {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 700;
   color: #1c5b41;
   margin: 0;
   direction: ltr;
@@ -1978,7 +1978,7 @@ html[dir=rtl] .main-section .main-title {
 }
 .contact-form .form-title {
   font-size: 36px;
-  font-weight: 600;
+  font-weight: 700;
   color: #000000;
   margin: 0;
 }
@@ -2075,7 +2075,7 @@ html[dir=rtl] .main-section .main-title {
 }
 .job-item .job-title {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
   color: #000000;
   margin: 0 0 15px;
 }
@@ -2101,7 +2101,7 @@ html[dir=rtl] .main-section .main-title {
   color: #1c5b41;
   text-transform: capitalize;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 400;
   height: 28px;
   width: -moz-fit-content;
   width: fit-content;
@@ -2113,7 +2113,7 @@ html[dir=rtl] .main-section .main-title {
   background-color: #1c5b41;
   color: #fff;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
   padding: 0 20px;
   width: -moz-fit-content;
   width: fit-content;
@@ -2145,7 +2145,7 @@ html[dir=rtl] .main-section .main-title {
 }
 .careers-banner .banner-title {
   font-size: 36px;
-  font-weight: 600;
+  font-weight: 700;
   color: #1c5b41;
   margin: 0;
 }
@@ -2161,7 +2161,7 @@ html[dir=rtl] .main-section .main-title {
   background-color: #1c5b41;
   color: #fff;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
   padding: 0 20px;
   width: -moz-fit-content;
   width: fit-content;
@@ -2209,7 +2209,7 @@ html[dir=rtl] .main-section .main-title {
   color: #1c5b41;
   text-transform: capitalize;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 700;
   height: 28px;
   width: -moz-fit-content;
   width: fit-content;
@@ -2279,7 +2279,7 @@ html[dir=rtl] .main-section .main-title {
   margin-bottom: 50px;
   color: #000000;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 2.25;
   padding-inline-start: 20px;
 }
@@ -2309,7 +2309,7 @@ html[dir=rtl] .main-section .main-title {
 .apply-content .apply-title {
   text-align: center;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 700;
   color: #000000;
   margin: 0 0 40px;
 }
@@ -2498,4 +2498,158 @@ html[dir=rtl] .main-section .main-title {
 
 .related-news {
   padding-bottom: 0;
+}
+
+.fieldset-head {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 20px;
+}
+.fieldset-head .section-title {
+  font-size: 24px;
+}
+@media (max-width: 767px) {
+  .fieldset-head {
+    text-align: center;
+  }
+}
+
+.form-fieldset {
+  width: 100%;
+  max-width: 900px;
+  border: 1px solid #f5f5f5;
+  padding: 15px;
+  margin: 0 auto 40px;
+}
+.form-fieldset .form-grid {
+  gap: 15px 30px;
+}
+.form-fieldset .form-grid .form-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 767px) {
+  .form-fieldset .form-grid .form-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.form-fieldset .form-group {
+  margin: 0;
+}
+.form-fieldset .form-group.center .form-control {
+  text-align: center;
+}
+.form-fieldset .form-label {
+  margin-bottom: 7px;
+}
+.form-fieldset .radios-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 29px;
+  width: 100%;
+}
+.form-fieldset .radio {
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+}
+.form-fieldset .radio::after {
+  display: none;
+}
+.form-fieldset .radio input {
+  width: 20px;
+  aspect-ratio: 1;
+  cursor: pointer;
+}
+.form-fieldset .inputs-table {
+  width: 100%;
+  table-layout: fixed;
+}
+.form-fieldset .inputs-table .form-label {
+  margin: 0;
+}
+.form-fieldset .form-hint {
+  font-size: 12px;
+  font-weight: 500;
+  color: #000000;
+  opacity: 0.5;
+  line-height: 1.5;
+  display: flex;
+  align-items: end;
+  padding: 18.5px 0;
+}
+.form-fieldset .form-hint.full-w {
+  padding: 0;
+  margin-top: -20px;
+}
+.required .form-fieldset .form-label:after {
+  display: none;
+}
+.form-fieldset .required > .form-label:after {
+  display: block;
+}
+.form-fieldset .table-head {
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+  padding: 20px 0 0;
+  font-weight: 700;
+  margin: 0 0 0;
+}
+.form-fieldset .table-head.last-head {
+  color: #1c5b41;
+}
+.form-fieldset .experience-table {
+  width: 100%;
+  table-layout: fixed;
+  width: calc(100% + 30px);
+  margin: 0 -15px;
+}
+.form-fieldset .experience-table td,
+.form-fieldset .experience-table th {
+  padding: 0 15px;
+}
+.form-fieldset .file-content {
+  position: relative;
+  cursor: pointer;
+}
+.form-fieldset .file-content .form-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  min-height: 55px;
+  padding-block: 7px;
+}
+.form-fieldset .file-content .form-control.placeholder-value::after {
+  content: "*";
+  color: #f00;
+}
+.form-fieldset .file-content input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.form-fieldset .signature {
+  display: flex;
+  align-items: center;
+  height: 75px;
+  border-bottom: 1px solid #000000;
+}
+.form-fieldset table {
+  min-width: 800px;
+}
+@media (max-width: 991px) {
+  .form-fieldset {
+    overflow: hidden;
+  }
+  .form-fieldset .form-grid {
+    overflow-x: auto;
+  }
 }/*# sourceMappingURL=main.css.map */
