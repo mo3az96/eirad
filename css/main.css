@@ -2522,7 +2522,7 @@ html[dir=rtl] .main-section .main-title {
   margin: 0 auto 40px;
 }
 .form-fieldset .form-grid {
-  gap: 15px 30px;
+  gap: 30px;
 }
 .form-fieldset .form-grid .form-grid {
   grid-template-columns: repeat(3, 1fr);
@@ -2530,6 +2530,11 @@ html[dir=rtl] .main-section .main-title {
 @media (max-width: 767px) {
   .form-fieldset .form-grid .form-grid {
     grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 767px) {
+  .form-fieldset .form-grid {
+    gap: 20px;
   }
 }
 .form-fieldset .form-group {
@@ -2546,6 +2551,12 @@ html[dir=rtl] .main-section .main-title {
   grid-template-columns: repeat(4, 1fr);
   gap: 29px;
   width: 100%;
+}
+@media (max-width: 767px) {
+  .form-fieldset .radios-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
 }
 .form-fieldset .radio {
   gap: 15px;
@@ -2611,6 +2622,12 @@ html[dir=rtl] .main-section .main-title {
 .form-fieldset .experience-table th {
   padding: 0 15px;
 }
+@media (max-width: 991px) {
+  .form-fieldset .experience-table {
+    width: calc(100% + 20px);
+    margin: 0 -10px;
+  }
+}
 .form-fieldset .file-content {
   position: relative;
   cursor: pointer;
@@ -2643,13 +2660,13 @@ html[dir=rtl] .main-section .main-title {
   border-bottom: 1px solid #000000;
 }
 .form-fieldset table {
-  min-width: 800px;
+  min-width: 820px;
 }
 @media (max-width: 991px) {
   .form-fieldset {
     overflow: hidden;
   }
-  .form-fieldset .form-grid {
+  .form-fieldset .table-content {
     overflow-x: auto;
   }
 }/*# sourceMappingURL=main.css.map */
