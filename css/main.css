@@ -2727,4 +2727,10 @@ html[lang=ar] [type=date], html[dir=rtl] [type=date] {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.form-page .submit-btn {
+  font-size: 20px;
+  min-width: 270px;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */
